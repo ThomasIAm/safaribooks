@@ -1,4 +1,13 @@
+.idea/
+.vscode/
+.DS_Store
+
+__pycache__/
+.venv/
+.env/
+
 Books/
 
 cookies.json
 *.log
+*.txt
