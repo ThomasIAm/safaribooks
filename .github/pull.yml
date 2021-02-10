@@ -1,0 +1,9 @@
+version: "1"
+rules:
+  - base: master
+    upstream: lorenzodifuccia:master
+    mergeMethod: merge
+    assignees:
+      - ThomasIAm
+    conflictReviewers:
+      - ThomasIAm
