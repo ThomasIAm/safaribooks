@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/thomasiam/safaribooks/badge)](https://www.codefactor.io/repository/github/thomasiam/safaribooks)
+
 # QuickStart:
 
 use docker image as follows:
