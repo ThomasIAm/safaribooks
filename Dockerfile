@@ -7,7 +7,7 @@ WORKDIR /data
 
 COPY ./ ./
 
-RUN pip3 install --upgrade -r requirements.txt
+RUN pip3 install --no-cache-dir --upgrade -r requirements.txt
 
 ENTRYPOINT [ "python3", "safaribooks.py" ]
 CMD        [ "--help" ]
