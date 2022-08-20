@@ -965,7 +965,7 @@ class SafariBooks:
                              for sub in self.book_info.get("subjects", []))
 
         return self.CONTENT_OPF.format(
-            (self.book_info.get("isbn",  self.book_id)),
+            (self.book_info.get("isbn", self.book_id)),
             escape(self.book_title),
             authors,
             escape(self.book_info.get("description", "")),
